@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https://api.mapbox.com; script-src 'self' https://api.mapbox.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://api.mapbox.com;"
+    />
     <title>Wonderlust</title>
     <link rel="stylesheet" href="/CSS/style.css" />
     <link
@@ -25,7 +29,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/rating.css" />
-
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css"
       rel="stylesheet"
