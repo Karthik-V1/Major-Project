@@ -1,0 +1,10 @@
+<%layout("/layouts/boilerplate")%>
+<div class="row mt-5">
+  <div class="alert alert-danger col-8 offset-2" role="alert">
+    <h3 style="text-align: center">
+      &#9888; &nbsp;&nbsp;&nbsp; <%=err.message%>
+    </h3>
+    <br />
+    <p><%=err.stack%></p>
+  </div>
+</div>
